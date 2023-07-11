@@ -27,7 +27,7 @@ The trTeamWinsMatch trigger is an after insert trigger that is run automatically
 [Running the trigger](https://github.com/typicalrobot/footballinventory/blob/main/trigrun1.png) <br>
 # [Trigger 2](https://github.com/typicalrobot/footballinventory/blob/main/trigger2.png) <br>
 The trMatchDetails is an after trigger that is run whenever the user inserts into the TeamPlaysMatchInStadium.  The function inserts all the details related to a match in the MatchDetails table. <br>
-[Running the trigger] (https://github.com/typicalrobot/footballinventory/blob/main/trigrun2.png)
+[Running the trigger](https://github.com/typicalrobot/footballinventory/blob/main/trigrun2.png)
 # [Query 1](https://github.com/typicalrobot/footballinventory/blob/main/q1.png) <br>
 List the details of all the players like Name, TEam,Jersey_No, Position, DOB Country_Name by joining multiple tables. <br>
 # [Query 2](https://github.com/typicalrobot/footballinventory/blob/main/q2.png) <br>
