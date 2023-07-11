@@ -26,15 +26,15 @@ The spGetPointTableLeague  is a stored procedure that allows you to specify the 
 The trTeamWinsMatch trigger is an after insert trigger that is run automatically when the TeamWinsMatch table has a new entry. When a team wins a match in a particular league. They automatically get 3 points. Therefore there is no need to manually enter this information into the database. It can be done using triggers. This function updates the league table with the points of the team who just won the match by 3 points. <br>
 # Trigger 2 <br>
 The trMatchDetails is an after trigger that is run whenever the user inserts into the TeamPlaysMatchInStadium.  The function inserts all the details related to a match in the MatchDetails table. <br>
-# Query 1 <br>
+# [Query 1](https://github.com/typicalrobot/footballinventory/blob/main/q1.png) <br>
 List the details of all the players like Name, TEam,Jersey_No, Position, DOB Country_Name by joining multiple tables. <br>
-# Query 2 <br>
+# [Query 2](https://github.com/typicalrobot/footballinventory/blob/main/q2.png) <br>
 This query gives information about the managers like Name, club they manage, nationality and their date of birth. <br>
-# Query 3 <br>
+# [Query 3](https://github.com/typicalrobot/footballinventory/blob/main/q3.png) <br>
 This query gives out match details such as the stadium where its held, teams that are playing, capacity of the stadium. <br>
-# Query 4 <br>
+# [Query 4](https://github.com/typicalrobot/footballinventory/blob/main/q4.png) <br>
 This gives us the number of matches played in the stadium. <br>
-# Query 5 <br>
+# [Query 5](https://github.com/typicalrobot/footballinventory/blob/main/q5.png) <br>
 This query uses points to calculate the rank for a particular league table. <br>
  
 
