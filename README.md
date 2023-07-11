@@ -1,6 +1,6 @@
 # footballinventory
 This would help sports professionals to keep a well-maintained and structured database of all game data, allowing them to make changes quickly. It will also allow game viewers to view the points roster and compare ranks and games. <br>
-# [ORM Model] (https://github.com/typicalrobot/footballinventory/blob/main/ORM%20diagram.jpg) <br>
+# [ORM Model](https://github.com/typicalrobot/footballinventory/blob/main/ORM%20diagram.jpg) <br>
 We used Halpin’s steps to create our ORM model and define relationships between various entities and domains.
 Our ORM model consists of entities such as: Team, Match, Person, Stadium, League, Country.
 Subtypes in our model are:
