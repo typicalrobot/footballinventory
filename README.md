@@ -30,14 +30,19 @@ The trMatchDetails is an after trigger that is run whenever the user inserts int
 [Running the trigger](https://github.com/typicalrobot/footballinventory/blob/main/trigrun2.png)
 # [Query 1](https://github.com/typicalrobot/footballinventory/blob/main/q1.png) <br>
 List the details of all the players like Name, TEam,Jersey_No, Position, DOB Country_Name by joining multiple tables. <br>
+[Result](https://github.com/typicalrobot/footballinventory/blob/main/q1res.png) <br>
 # [Query 2](https://github.com/typicalrobot/footballinventory/blob/main/q2.png) <br>
 This query gives information about the managers like Name, club they manage, nationality and their date of birth. <br>
+[Result](https://github.com/typicalrobot/footballinventory/blob/main/q2res.png)<br>
 # [Query 3](https://github.com/typicalrobot/footballinventory/blob/main/q3.png) <br>
 This query gives out match details such as the stadium where its held, teams that are playing, capacity of the stadium. <br>
+[Result](https://github.com/typicalrobot/footballinventory/blob/main/q3res.png) <br>
 # [Query 4](https://github.com/typicalrobot/footballinventory/blob/main/q4.png) <br>
 This gives us the number of matches played in the stadium. <br>
+[Result](https://github.com/typicalrobot/footballinventory/blob/main/q4res.png)
 # [Query 5](https://github.com/typicalrobot/footballinventory/blob/main/q5.png) <br>
 This query uses points to calculate the rank for a particular league table. <br>
+[Result](https://github.com/typicalrobot/footballinventory/blob/main/q5res.png)
  
 
 
