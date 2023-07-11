@@ -18,9 +18,9 @@ A person can be either a referee, a manager or a player. <br>
 # [Stored procedure 1](https://github.com/typicalrobot/footballinventory/blob/main/Stored%20Procedure%201.png) <br>
 The spTeamDateFoundedRange stored procedure allows a user to generate a query for the list of teams that were founded between a date range. This store procedure required two variables; 1. StartDate and EndDate. The StartDate is the earliest date range and the  EndDate  is the latest date range. If StartDate variable is wrong, it will use the date of the oldest team. Likewise if EndDate is null the function will use the least oldest club date.
 <br>
-# Stored procedure 2 <br>
+# [Stored procedure 2](https://github.com/typicalrobot/footballinventory/blob/main/storedpro2.png) <br>
 The spGetTeamWinCounts was created to query how many goals a particular team has scored in a particular stadium. The function takes 2 parameters. The first parameter is stadiumName,which takes the name of the stadium that is being queried and the second parameter takes the TeamName, which is the team who has scored those goals. When either the stadiumName of TeamName is not provided, an error message is displayed. <br>
-# Stored procedure 3 <br>
+# [Stored procedure 3](https://github.com/typicalrobot/footballinventory/blob/main/storedpro3.png) <br>
 The spGetPointTableLeague  is a stored procedure that allows you to specify the name of the league using the variable leagueName and it will give you the league table showing all the teams in order of their point from highest to lowest. If the leagueName is not specified, the function will throw an error message. <br>
 # Trigger 1 <br>
 The trTeamWinsMatch trigger is an after insert trigger that is run automatically when the TeamWinsMatch table has a new entry. When a team wins a match in a particular league. They automatically get 3 points. Therefore there is no need to manually enter this information into the database. It can be done using triggers. This function updates the league table with the points of the team who just won the match by 3 points. <br>
