@@ -15,7 +15,7 @@ A team has a club, manager, can be a national team, has specific players belongi
 A team can also win a match played in a specific stadium part of a specific league.
 A player can have different positions in a certain team.
 A person can be either a referee, a manager or a player. <br>
-# Stored procedure 1 <br>
+# [Stored procedure 1](https://github.com/typicalrobot/footballinventory/blob/main/Stored%20Procedure%201.png) <br>
 The spTeamDateFoundedRange stored procedure allows a user to generate a query for the list of teams that were founded between a date range. This store procedure required two variables; 1. StartDate and EndDate. The StartDate is the earliest date range and the  EndDate  is the latest date range. If StartDate variable is wrong, it will use the date of the oldest team. Likewise if EndDate is null the function will use the least oldest club date.
 <br>
 # Stored procedure 2 <br>
