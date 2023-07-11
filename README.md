@@ -24,8 +24,10 @@ The spGetTeamWinCounts was created to query how many goals a particular team has
 The spGetPointTableLeague  is a stored procedure that allows you to specify the name of the league using the variable leagueName and it will give you the league table showing all the teams in order of their point from highest to lowest. If the leagueName is not specified, the function will throw an error message. <br>
 # [Trigger 1](https://github.com/typicalrobot/footballinventory/blob/main/trigger1.png) <br>
 The trTeamWinsMatch trigger is an after insert trigger that is run automatically when the TeamWinsMatch table has a new entry. When a team wins a match in a particular league. They automatically get 3 points. Therefore there is no need to manually enter this information into the database. It can be done using triggers. This function updates the league table with the points of the team who just won the match by 3 points. <br>
+[Running the trigger](https://github.com/typicalrobot/footballinventory/blob/main/trigrun1.png) <br>
 # [Trigger 2](https://github.com/typicalrobot/footballinventory/blob/main/trigger2.png) <br>
 The trMatchDetails is an after trigger that is run whenever the user inserts into the TeamPlaysMatchInStadium.  The function inserts all the details related to a match in the MatchDetails table. <br>
+[Running the trigger] (https://github.com/typicalrobot/footballinventory/blob/main/trigrun2.png)
 # [Query 1](https://github.com/typicalrobot/footballinventory/blob/main/q1.png) <br>
 List the details of all the players like Name, TEam,Jersey_No, Position, DOB Country_Name by joining multiple tables. <br>
 # [Query 2](https://github.com/typicalrobot/footballinventory/blob/main/q2.png) <br>
